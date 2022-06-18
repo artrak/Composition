@@ -11,6 +11,8 @@
         android:theme="@style/Theme.Composition">
         <activity
             android:name=".presentation.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
